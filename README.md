@@ -1,13 +1,13 @@
 # CL&NLP-ASSIGNMENT
 # Computational Linguistics & Natural Language Processing
 
-## 📌 Overview
+## Overview
 
 This repository contains the LSTM Practice Questions assignment for Computational Linguistics and Natural Language Processing (CL & NLP). It covers theoretical concepts and numerical problems related to Long Short-Term Memory (LSTM) networks, sequential data processing, time-series forecasting, and classification evaluation.
 
 The assignment focuses on understanding LSTM architecture, performing forward-pass calculations, analyzing trainable parameters, studying gradient behavior, and exploring the applications of sequential models in electricity load forecasting and predictive maintenance.
 
-## 📚 Topics Covered
+## Topics Covered
 
 ### 1. Long Short-Term Memory (LSTM)
 
@@ -151,7 +151,7 @@ A predicted probability greater than or equal to the threshold is classified as 
 
 This scenario illustrates how sequential models can support predictive maintenance by identifying equipment that may require inspection.
 
-## 📊 Model Evaluation
+##  Model Evaluation
 
 The assignment evaluates binary classification performance using a confusion matrix.
 
@@ -194,7 +194,7 @@ The evaluation highlights the importance of interpreting precision, recall, F1-s
 
 In predictive maintenance, recall is particularly important because missed failures can lead to equipment damage, operational downtime, and safety risks. Accuracy alone may be misleading when the dataset contains many more normal operating cycles than failure cases.
 
-## 🧠 Key Learning Outcomes
+##  Key Learning Outcomes
 
 After completing this assignment, the following concepts can be understood:
 
@@ -214,7 +214,7 @@ After completing this assignment, the following concepts can be understood:
 - Precision, recall, F1-score, and accuracy
 - Evaluation of classification models in predictive maintenance
 
-## 🔍 Applications of LSTM
+##  Applications of LSTM
 
 LSTM networks are widely used in sequential learning tasks, including:
 
@@ -227,7 +227,7 @@ LSTM networks are widely used in sequential learning tasks, including:
 - Electricity Load Prediction
 - Predictive Maintenance
 
-## 👩‍💻 Author
+##  Author
 
 **Chhavi Chauhan**
 
@@ -235,6 +235,6 @@ B.Tech — Computer Science (AI & ML)
 
 Computational Linguistics & Natural Language Processing Assignment
 
-## 📄 Disclaimer
+## Disclaimer
 
 This repository is intended for academic and educational purposes as part of coursework in Computational Linguistics and Natural Language Processing. The content focuses on LSTM architecture, numerical problem-solving, sequential data processing, time-series forecasting, and classification evaluation.
