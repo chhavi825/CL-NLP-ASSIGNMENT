@@ -37,33 +37,6 @@ The calculations include:
 - Output gate activation
 - Hidden state calculation
 
-The standard LSTM equations used are:
-
-**Forget Gate**
-
-`f_t = sigmoid(W_f * x_t + U_f * h_(t-1) + b_f)`
-
-**Input Gate**
-
-`i_t = sigmoid(W_i * x_t + U_i * h_(t-1) + b_i)`
-
-**Candidate Cell State**
-
-`C_tilde_t = tanh(W_c * x_t + U_c * h_(t-1) + b_c)`
-
-**Cell State**
-
-`C_t = f_t * C_(t-1) + i_t * C_tilde_t`
-
-**Output Gate**
-
-`o_t = sigmoid(W_o * x_t + U_o * h_(t-1) + b_o)`
-
-**Hidden State**
-
-`h_t = o_t * tanh(C_t)`
-
-These calculations demonstrate how an LSTM cell combines previous memory with new information to produce its updated internal states.
 
 ### 3. LSTM Trainable Parameter Count
 
@@ -104,7 +77,7 @@ Where:
 - `f` is the constant forget-gate value.
 - `k` is the number of time steps.
 
-The numerical problems examine:
+The numerical problems are examined:
 
 - Gradient scaling for a forget-gate value of 0.9 after 10 and 50 steps
 - Gradient scaling for forget-gate values of 0.5 and 0.99 after 50 steps
