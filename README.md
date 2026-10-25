@@ -1,4 +1,4 @@
-# CL-NLP-ASSIGNMENT
+# CL&NLP-ASSIGNMENT
 # Computational Linguistics & Natural Language Processing
 
 ## 📌 Overview
