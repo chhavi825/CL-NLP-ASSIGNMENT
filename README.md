@@ -231,7 +231,7 @@ LSTM networks are widely used in sequential learning tasks, including:
 
 **Chhavi Chauhan**
 
-B.Tech — Computer Science (AI & ML)
+B.Tech — Computer Science (DATA SCIENCE)
 
 Computational Linguistics & Natural Language Processing Assignment
 
